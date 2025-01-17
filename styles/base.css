@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1e90ff;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  .main-header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .main-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .main-header span {
+    color: #f1c40f;
+  }
+  
+  .navigation {
+    margin-top: 10px;
+  }
+  
+  .navigation a {
+    margin: 0 15px;
+    color: #f1f1f1;
+    font-weight: bold;
+  }
+  
+  .navigation a:hover {
+    color: #f1c40f;
+  }
+  
+  /* Main Content */
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-me {
+    background: #fff;
+    padding: 20px;
+    
+  }
+  about-me, .location, .resources {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  about-me, .location, .resources {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .about-me, .location {
+    flex: 2 1 60%;
+  }
+  
+  .resources {
+    flex: 1 1 30%;
+  }
+.resources h2{
+    background-color: #1e90ff;
+    text-align: center;
+}  
+
+.about-me h2{
+    background-color: #1e90ff;
+    text-align: center;
+}  
+
+
+
+  .about-me-details, .location-details {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .about-me-details img, .location-details img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .location h3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .flag {
+    max-width: 150px;
+  }
+  
+  .flag-caption {
+    font-size: 0.9rem;
+    text-align: center;
+    color: #666;
+  }
+  
+  .resources ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  .resources li {
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  .main-footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  .main-footer p {
+    margin: 5px 0;
+  }
+  
