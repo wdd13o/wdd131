@@ -1,0 +1,10 @@
+/* Larger view styles */
+.gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
