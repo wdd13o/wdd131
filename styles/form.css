@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+    background-color: #4A148C; /* Deep Purple */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+
+/* Form Container */
+form {
+    background: #d4d2d3;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+/* Labels & Inputs */
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Star Rating */
+fieldset {
+    border: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Radio Button Styling */
+input[type="radio"] {
+    display: none;
+}
+
+label input[type="radio"] + span {
+    font-size: 20px;
+    color: #ddd;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + span {
+    color: gold;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #6b0394d5;
+    transform: scale(1.05);
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    accent-color: rgb(2, 99, 67); /* Colors the selected radio button */
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #4A148C; /* Deep purple background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    position: relative; /* Ensures proper placement */
+}
+
+/* Ensuring footer is separate from the form */
+form footer {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input, select, textarea, button {
+        font-size: 14px;
+    }
+}
+
+
+
+
